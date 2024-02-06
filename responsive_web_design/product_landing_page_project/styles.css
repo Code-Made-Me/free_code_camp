@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: orchid;
+    padding: 20px;
+    margin-left: 0px;
+    background-color: #efefef;
+}
+
+#header {
+    position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+ 
+  padding: 1em;
+    color: orchid;
+    padding: 1px;
+    text-align: 
+    left;
+    font-size: larger;
+   
+     
+}
+
+#header img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: orchid;
+}
+
+#enter-email {
+    text-align: center;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: orchid;
+    padding: 5px;
+    margin-bottom: 0; /* Set to 0 to remove the margin */
+    z-index: 999; /* Ensure it appears above other elements */
+}
+
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#about-us {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#about-us img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#about-school {
+    text-align: left;
+}
+
+#courses {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#curriculum h2 {
+    color: orchid;
+    text-align: left;
+    font-weight: bold;
+}
+
+#courses img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#video-container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#form-container {
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#submit {
+    background-color: orchid;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: purple;
+}
+
+#pricing .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    padding: 20px;
+    border: 1px solid orchid;
+    text-align: center;
+}
+
+#pricing #fees h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#pricing #fees img {
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+}
+
+#grid-item h2 {
+    text-decoration: underline;
+}
+
+#pricing #fees {
+    text-align: left;
+}
+
+#pricing #fees img {
+    float: left;
+    margin-right: 10px;
+}
+
+#pricing #fees h2 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#pricing .grid-item h2 {
+    text-decoration: underline;
+    font-size: medium;
+}
+
+#pricing div {
+    margin-bottom: 5px;
+}
+
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: orchid;
+    border-top: 2px solid lightgrey;
+    color: white;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    /* Add styles for smaller screens here */
+}
+
